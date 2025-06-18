@@ -16,4 +16,4 @@ const categories = [
   { title: "Tasks", icon: "check-square", slug: "/tasks" },
   { title: "Other", icon: "file-text", slug: "/other" },
 ];
-export { dump, icon, siteName, datefns, categories };
+export default { dump, icon, siteName, datefns, categories };

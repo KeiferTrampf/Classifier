@@ -9,4 +9,4 @@ const postSchema = new mongoose.Schema({
   author: { type: String, required: [true, "Author is required"] },
 });
 
-export const Post = mongoose.model("Post", postSchema);
+export default mongoose.model("Post", postSchema);

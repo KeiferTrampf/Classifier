@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import mongoose from "mongoose";
 
-export const hf = (connector) => {
+const hf = (connector) => {
   return new Promise((resolve, reject) => {
     if (!connector) {
       return reject(new Error("Bad connector"));
@@ -25,4 +25,9 @@ export const hf = (connector) => {
     );
   });
 };
-export const mdb = (connector) => mongoose.connect(connector);
+const mdb = (connector) => mongoose.connect(connector);
+
+export default {
+  hf,
+  mdb,
+};
