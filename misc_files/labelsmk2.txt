@@ -1,0 +1,5 @@
+0 - Journal
+1 - Meeting Minutes
+2 - Technical Posts
+3 - Academic Posts
+4 - Reminders/Tasks
